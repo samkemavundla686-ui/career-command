@@ -91,7 +91,7 @@ export function FloatingAssistant() {
   const [open, setOpen] = useState(false);
   const [minimised, setMinimised] = useState(false);
   const [msgs, setMsgs] = useState<Msg[]>([
-    { role: "ai", text: "Hi — I'm **Career Command AI**. Ask me anything about your career pipeline, or tap a quick action below." },
+    { role: "ai", text: "Hi — I'm **Shemove AI**. Ask me anything about your career pipeline, or tap a quick action below." },
   ]);
   const [input, setInput] = useState("");
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -114,7 +114,7 @@ export function FloatingAssistant() {
     <>
       {/* Floating button */}
       <button
-        aria-label="Open Career Command AI"
+        aria-label="Open Shemove AI"
         onClick={() => {
           setOpen(true);
           setMinimised(false);
@@ -139,7 +139,7 @@ export function FloatingAssistant() {
                   <Sparkles className="h-5 w-5 text-primary-foreground" />
                 </div>
                 <div>
-                  <SheetTitle className="font-display text-base">Career Command AI</SheetTitle>
+                  <SheetTitle className="font-display text-base">Shemove AI</SheetTitle>
                   <p className="text-[11px] text-muted-foreground">Your personal career copilot</p>
                 </div>
               </div>
@@ -210,7 +210,7 @@ export function FloatingAssistant() {
           className="fixed bottom-6 right-6 z-40 flex items-center gap-2 rounded-full border border-primary/40 bg-card px-4 py-2.5 text-sm font-medium shadow-elegant glow-ring-sm hover:border-primary"
         >
           <Bot className="h-4 w-4 text-primary" />
-          Career Command AI
+          Shemove AI
         </button>
       )}
     </>

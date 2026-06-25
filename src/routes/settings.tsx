@@ -13,7 +13,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/settings")({
   head: () => ({
     meta: [
-      { title: "Settings — Career Command Centre" },
+      { title: "Settings — Shemove Hub" },
       { name: "description", content: "Profile, notifications, weekly goal, and data export." },
     ],
   }),

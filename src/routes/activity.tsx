@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/activity")({
   head: () => ({
     meta: [
-      { title: "Activity — Career Command Centre" },
+      { title: "Activity — Shemove Hub" },
       { name: "description", content: "Your full career activity timeline." },
     ],
   }),

@@ -37,7 +37,7 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Career Command Centre" },
+      { title: "Dashboard — Shemove Hub" },
       { name: "description", content: "Your daily career command centre — focus, deadlines, follow-ups and momentum at a glance." },
     ],
   }),

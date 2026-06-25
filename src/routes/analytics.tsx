@@ -25,7 +25,7 @@ import { Briefcase, Send, CheckCircle2, Target } from "lucide-react";
 export const Route = createFileRoute("/analytics")({
   head: () => ({
     meta: [
-      { title: "Analytics — Career Command Centre" },
+      { title: "Analytics — Shemove Hub" },
       { name: "description", content: "See your career momentum, response rate, and outcomes." },
     ],
   }),

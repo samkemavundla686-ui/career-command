@@ -64,7 +64,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Career Command Centre" },
+      { title: "Shemove Hub" },
       { name: "description", content: "Premium career command centre — track applications, deadlines, interviews and grow your career." },
       { name: "theme-color", content: "#0f1d18" },
     ],

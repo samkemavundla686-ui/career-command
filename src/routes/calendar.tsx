@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/calendar")({
   head: () => ({
     meta: [
-      { title: "Calendar — Career Command Centre" },
+      { title: "Calendar — Shemove Hub" },
       { name: "description", content: "Deadlines, interviews, follow-ups and tasks in one calendar." },
     ],
   }),
