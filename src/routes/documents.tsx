@@ -9,7 +9,7 @@ import { useStore, type DocCategory } from "@/lib/store";
 export const Route = createFileRoute("/documents")({
   head: () => ({
     meta: [
-      { title: "Documents — Career Command Centre" },
+      { title: "Documents — Shemove Hub" },
       { name: "description", content: "Manage CVs, cover letters, certificates and supporting documents." },
     ],
   }),

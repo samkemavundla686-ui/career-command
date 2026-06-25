@@ -10,7 +10,7 @@ import { useStore, upcomingInterviews, pastInterviews, getCompany, type Intervie
 export const Route = createFileRoute("/interviews")({
   head: () => ({
     meta: [
-      { title: "Interviews — Career Command Centre" },
+      { title: "Interviews — Shemove Hub" },
       { name: "description", content: "Prepare, schedule and reflect on every interview." },
     ],
   }),

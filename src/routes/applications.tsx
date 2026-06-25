@@ -32,7 +32,7 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/applications")({
   head: () => ({
     meta: [
-      { title: "Applications — Career Command Centre" },
+      { title: "Applications — Shemove Hub" },
       { name: "description", content: "Track every application with card, list, and Kanban views." },
     ],
   }),

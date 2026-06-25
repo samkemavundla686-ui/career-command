@@ -9,7 +9,7 @@ import { useStore, recentResponses, type Company } from "@/lib/store";
 export const Route = createFileRoute("/companies")({
   head: () => ({
     meta: [
-      { title: "Companies — Career Command Centre" },
+      { title: "Companies — Shemove Hub" },
       { name: "description", content: "Your personal CRM for companies and institutions." },
     ],
   }),

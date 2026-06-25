@@ -52,7 +52,7 @@ export function AppSidebar() {
           </div>
           {!collapsed && (
             <div className="min-w-0">
-              <div className="font-display text-sm font-semibold tracking-tight">Career Command</div>
+              <div className="font-display text-sm font-semibold tracking-tight">Shemove Hub</div>
               <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">v1 · premium</div>
             </div>
           )}
